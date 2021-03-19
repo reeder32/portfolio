@@ -5,6 +5,7 @@
   margin-top: 10px;
   margin-bottom: 10px;
   width: 50%;
+  height: auto;
   float: left;
   box-sizing: border-box;
 }
@@ -48,5 +49,11 @@ h1 {
 lh {
   font-style: oblique;
   font-weight: 500;
+}
+
+.miscellaneous h5 {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid darkgrey;
 }
 
