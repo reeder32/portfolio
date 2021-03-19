@@ -11,62 +11,108 @@
 </head>
 
 <body>
-  <div>
-    <h1>Nick Reeder</h1>
-    <img class="rounded-pic" src="img/profile.jpeg" alt="a profile picture">
-    <p>portfolio</p>
+  <div class="container">
+
+    <div class="Jumbotron row">
+      <div class="col-lrg-6 mx-auto">
+        <div class="clearfix content-heading">
+          <h1>Nick Reeder Portfolio</h1>
+          <img class="rounded-circle img-thumbnail offset-3" src="img/profile.jpeg" alt="a profile picture">
+        </div>
+      </div>
+    </div>
+    <div class="web-work">
+      <h2>Web Stuff</h2>
+      <ol>
+        <li><a href="https://github.com/reeder32/vacation-site.git">vacation site</a></li>
+        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying a vacation site
+          webpage.</p>
+        <p>technologies used</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GIT</li>
+        </ul>
+        <li><a href="https://github.com/reeder32/animal-shelter.git">animal shelter</a></li>
+        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying an animal rescue
+          site webpage, and how to properly use the css box-model.
+        </p>
+        <p>technologies used</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GIT</li>
+        </ul>
+        <li><a href="https://github.com/reeder32/blogging-site.git">blogging site</a></li>
+        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a>. I co-authored this page
+          with
+          <a href="https://github.com/aGhouzlane">Ahmed Ghouzlane</a>.
+        </p>
+        <p>technologies used</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GIT</li>
+        </ul>
+      </ol>
+    </div>
+    <div class="ios-work">
+      <h2>iOS Stuff</h2>
+      <ol>
+        <li><a href="https://apps.apple.com/us/app/moody-weather/id1506337317">Moody Weather</a></li>
+        <p>This app uses factors such as temperature, cloud cover, and humidity to create <strong>rgb</strong> values to
+          create beautiful background colors.</p>
+        <p>technologies used</p>
+        <ul>
+          <li>Swift</li>
+          <li>Core Location</li>
+        </ul>
+        <li><a href="https://apps.apple.com/us/app/find-my-mailbox/id1530700085">Find My Mailbox</a></li>
+        <p>This app allows users to find and add local post office mailboxes.</p>
+        <p>technologies used</p>
+        <ul>
+          <li>Swfit</li>
+          <li>Core Location</li>
+          <li>Firebase</li>
+        </ul>
+      </ol>
+    </div>
+    <div class="about-me">
+      <h2>About Me</h2>
+      <p>I am a developer based out of Vancouer, WA (just outside of Portland, OR). I have been married to my beautiful
+        wife since 2005. We have two kids, Adam: 15, and John: 13. They are best friends. They like to listen to music
+        together, play basketball, watch movies, and everything else that teenagers like to do together. I also have two
+        dogs, Carrot and Calvin, both are Aussie-Labradoodles. When I have time alone, I like to go on walks, play
+        basketball, and enjoy wine by a fire with my wife and friends.</p>
+      <h3>Background</h3>
+      <h4>Education</h4>
+      <ul>
+        <li>Eastern Washington University with a degree in communications.</li>
+        <li>Portland Code School's iOS program in 2015li>
+      </ul>
+      <h4>Job Experience</h4>
+      <ul>
+        <li>X-Mode Social: 2015 - 2021, iOS Developer</li>
+        <li>ACT: 2012 - 2015, Classroom Technology Specialist</li>
+        <li>Starbucks: 2011 - 2012, Barista</li>
+        <li>QSP: 2005 - 2011, Field Sales Rep</li>
+      </ul>
+      <h4>Why am I taking coding bootcamp?</h4>
+      <p>I finished a bootcamp in 2015 for iOS, and I immediately went to work for a startup. Unfortunately, that
+        startup had to restructure, and I was let go in 2021. After searching for multiple jobs in iOS, and a number of
+        interviews, I realized that I had gaps in my knowledge as a developer. Gaps not just in iOS, but other
+        programming languages as well. I am taking this class from Epicodus to not only fill those knowledge gaps, but
+        to round myself out as a developer as well.</p>
+    </div>
   </div>
-  <div class="web-work">
-    <ol>
-      <li><a href="https://github.com/reeder32/vacation-site.git">vacation site</a></li>
-      <p>technologies used</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>GIT</li>
-      </ul>
-      <li><a href="https://github.com/reeder32/animal-shelter.git">animal shelter</a></li>
-      <p>technologies used</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>GIT</li>
-      </ul>
-      <li><a href="https://github.com/reeder32/blogging-site.git">blogging site</a></li>
-      <p>technologies used</p>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>GIT</li>
-      </ul>
-    </ol>
-  </div>
-  <div class="ios-work">
-    <ol>
-      <li><a href="https://apps.apple.com/us/app/moody-weather/id1506337317">Moody Weather</a></li>
-      <p>technologies used</p>
-      <ul>
-        <li>Swift</li>
-        <li>Core Location</li>
-      </ul>
-      <li><a href="https://apps.apple.com/us/app/find-my-mailbox/id1530700085">Find My Mailbox</a></li>
-      <p>technologies used</p>
-      <ul>
-        <li>Swfit</li>
-        <li>Core Location</li>
-        <li>Firebase</li>
-      </ul>
-    </ol>
+
+  <!--Here is where bootstrap ends, and I am using my own css-->
+  <div class="interests">
+    <h2>Miscellaneous</h2>
+    <h3>The real stars of the show:</h3>
+    <div class="pets"></div>
+    <div class="pets"></div>
   </div>
 </body>
 
 </html>
-
-<!--
-An image of you, or something that represents you.
-A list of projects you have created with active links to their GitHub pages sites or GitHub repositories.
-For each, include a brief description of the project and what languages it uses.
-An “About Me” section.
-Your background (education, job experience, or why did you decide to take a class on programming, etc).
-Your current interests, hobbies, and skills.
--->
