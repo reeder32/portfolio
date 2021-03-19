@@ -2,6 +2,8 @@
 
 #### A website about Nick Reeder's development portfolio
 
+Check out page [here](https://reeder32.github.io/portfolio/)
+
 #### By Nick Reeder
 
 ## Technologies Used
