@@ -1,6 +1,6 @@
 # Portfolio site
 
-#### A website to about Nick Reeder's development portfolio
+#### A website about Nick Reeder's development portfolio
 
 #### By Nick Reeder
 
@@ -31,5 +31,5 @@
 ### Other projects
 
 #### iOS work
-
-### web
+[Moody Weather](https://apps.apple.com/us/app/moody-weather/id1506337317)
+[Find My Mailbox](https://apps.apple.com/us/app/find-my-mailbox/id1530700085)
