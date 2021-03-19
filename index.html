@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container overflow-hidden">
 
     <div class="Jumbotron row">
       <div class="col-lrg-6 mx-auto">
@@ -21,61 +21,72 @@
         </div>
       </div>
     </div>
-    <div class="web-work">
-      <h2>Web Stuff</h2>
-      <ol>
-        <li><a href="https://github.com/reeder32/vacation-site.git">vacation site</a></li>
-        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying a vacation site
-          webpage.</p>
-        <p>technologies used</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>GIT</li>
-        </ul>
-        <li><a href="https://github.com/reeder32/animal-shelter.git">animal shelter</a></li>
-        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying an animal rescue
-          site webpage, and how to properly use the css box-model.
-        </p>
-        <p>technologies used</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>GIT</li>
-        </ul>
-        <li><a href="https://github.com/reeder32/blogging-site.git">blogging site</a></li>
-        <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a>. I co-authored this page
-          with
-          <a href="https://github.com/aGhouzlane">Ahmed Ghouzlane</a>.
-        </p>
-        <p>technologies used</p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>GIT</li>
-        </ul>
-      </ol>
-    </div>
-    <div class="ios-work">
-      <h2>iOS Stuff</h2>
-      <ol>
-        <li><a href="https://apps.apple.com/us/app/moody-weather/id1506337317">Moody Weather</a></li>
-        <p>This app uses factors such as temperature, cloud cover, and humidity to create <strong>rgb</strong> values to
-          create beautiful background colors.</p>
-        <p>technologies used</p>
-        <ul>
-          <li>Swift</li>
-          <li>Core Location</li>
-        </ul>
-        <li><a href="https://apps.apple.com/us/app/find-my-mailbox/id1530700085">Find My Mailbox</a></li>
-        <p>This app allows users to find and add local post office mailboxes.</p>
-        <p>technologies used</p>
-        <ul>
-          <li>Swfit</li>
-          <li>Core Location</li>
-          <li>Firebase</li>
-        </ul>
-      </ol>
+    <div class="container overflow-hidden">
+      <div class="row gy-4">
+        <div class="col-12 p-3 border bg-light">
+          <div class="web-work">
+            <h2>Web Stuff</h2>
+            <ol>
+              <li><a href="https://github.com/reeder32/vacation-site.git">vacation site</a></li>
+              <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying a vacation
+                site
+                webpage.</p>
+              <p>technologies used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+              </ul>
+              <li><a href="https://github.com/reeder32/animal-shelter.git">animal shelter</a></li>
+              <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a> displaying an animal
+                rescue
+                site webpage, and how to properly use the css box-model.
+              </p>
+              <p>technologies used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+              </ul>
+              <li><a href="https://github.com/reeder32/blogging-site.git">blogging site</a></li>
+              <p>A beginning project from week 1 at <a href="http://www.epicodus.com">Epicodus</a>. I co-authored this
+                page
+                with
+                <a href="https://github.com/aGhouzlane">Ahmed Ghouzlane</a>.
+              </p>
+              <p>technologies used</p>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>GIT</li>
+              </ul>
+            </ol>
+          </div>
+
+          <div class="ios-work ">
+            <h2>iOS Stuff</h2>
+            <ol>
+              <li><a href="https://apps.apple.com/us/app/moody-weather/id1506337317">Moody Weather</a></li>
+              <p>This app uses factors such as temperature, cloud cover, and humidity to create <strong>rgb</strong>
+                values to
+                create beautiful background colors.</p>
+              <p>technologies used</p>
+              <ul>
+                <li>Swift</li>
+                <li>Core Location</li>
+              </ul>
+              <li><a href="https://apps.apple.com/us/app/find-my-mailbox/id1530700085">Find My Mailbox</a></li>
+              <p>This app allows users to find and add local post office mailboxes.</p>
+              <p>technologies used</p>
+              <ul>
+                <li>Swfit</li>
+                <li>Core Location</li>
+                <li>Firebase</li>
+              </ul>
+            </ol>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="about-me">
       <h2>About Me</h2>
@@ -107,20 +118,21 @@
   </div>
 
   <!--Here is where bootstrap ends, and I am using my own css-->
-  <div class="interests">
-    <h2>Miscellaneous</h2>
-    <h3>The real stars of the show:</h3>
-    <div class="columns">
+  <div class="interests card">
+    <div class="card-body text-dark">
+      <h5 class="card-title">Miscellaneous</h5>
+      <h6 class="card-subtitle">The real stars of the show:</h6>
       <div class="pets">
         <!--Images with text about what they like to do, etc.-->
-        <img src="" alt="">
-        <p>Carrot loves to play fetch. When we can't go outside, her favorite ball is her<span
-            class="highlight">basketball!</span></p>
+        <img class="card-img-top img-thumbnail" src="img/carrot.jpeg" alt="carrot">
+        <p class="card-text">Carrot loves to play fetch. When we can't go outside, her favorite ball is her <span
+            class="highlight">basketball</span>!</p>
       </div>
       <div class="pets">
-        <img src="" alt="">
-        <p>Calvin loves to cuddle up on the couce, or in bed at night. Here he is <span
-            class="highlight">sitting</span>, patiently waiting for someone to sit down on the couch, turn on the fire,
+        <img class="card-img-top img-thumbnail" src="img/calvin.jpeg" alt="calvin">
+        <p class="card-text">Calvin loves to cuddle up on the couch, or in bed at night. Here he is <span
+            class="highlight">sitting</span>,
+          patiently waiting for someone to sit down on the couch, turn on the fire,
           and just chill.</p>
       </div>
     </div>

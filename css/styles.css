@@ -1,0 +1,32 @@
+.pets {
+  padding: 12px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.pets > img {
+  width: 50%;
+  height: auto;
+  margin-left: 25%;
+  display: block;
+}
+
+.pets > p {
+  margin: 4px;
+  float: left;
+  display: block;
+}
+
+.highlight {
+  color: #3493eb;
+  font-weight: bolder;
+}
+
+.interests {
+  margin: 20px;
+}
